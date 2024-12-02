@@ -128,3 +128,6 @@ form button {
 form button:hover {
     background-color: #555;
 }
+body {
+    background-color: #f0f0f0; /* Light gray background */
+}
