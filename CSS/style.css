@@ -131,4 +131,11 @@ form button:hover {
 body {
     background-color: #4169E1;
 }
+body {
+    background-image: url('images/e86af86a0f77a6625012638d08311c50.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 
