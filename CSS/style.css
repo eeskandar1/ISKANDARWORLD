@@ -16,9 +16,11 @@ body {
 
 /* Header styling */
 header {
-    background-color: #000000;
-    padding: 5px 0;
-    text-align: center;
+    position: sticky;
+    top: 0;              /* Sticks the header to the top */
+    z-index: 1000;       /* Ensures the header stays above other elements */
+    background-color: #000000; /* Add a background color to avoid transparency */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for better visibility */
 }
 
 header .logo img {
