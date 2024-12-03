@@ -176,3 +176,180 @@ footer {
 #contact a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Centered Layout for McLaren Page */
+.mclaren-page {
+    text-align: center;
+}
+
+/* Main Content for McLaren Page */
+.mclaren-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+/* McLaren Frame */
+.mclaren-frame {
+    width: auto;
+    margin: 0 auto;
+    border: 10px solid #000;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.mclaren-frame img {
+    width: 400px;
+    height: 400px;
+    display: block;
+}
+
+/* McLaren Details Section */
+.mclaren-details {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    text-align: left;
+}
+
+.mclaren-details h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.mclaren-details p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.mclaren-details ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.mclaren-details ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.mclaren-details button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mclaren-details button:hover {
+    background-color: #444;
+}
+
+/* Footer Section */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+/* Centered Layout for McLaren Page */
+.porsche-page {
+    text-align: center;
+}
+
+/* Main Content for McLaren Page */
+.porsche-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+/* McLaren Frame */
+.porsche-frame {
+    width: auto;
+    margin: 0 auto;
+    border: 10px solid #000;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.porsche-frame img {
+    width: 400px;
+    height: 400px;
+    display: block;
+}
+
+/* McLaren Details Section */
+.porsche-details {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    text-align: left;
+}
+
+.porsche-details h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.porsche-details p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.porsche-details ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.porsche-details ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.porsche-details button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.porsche-details button:hover {
+    background-color: #444;
+}
+
+/* Footer Section */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
