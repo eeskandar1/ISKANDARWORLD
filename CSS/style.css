@@ -15,6 +15,8 @@ body {
 
 
 /* Header styling */
+/* Header styling */
+/* Header styling */
 header {
     position: sticky;
     top: 0;              
@@ -23,31 +25,19 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
-    justify-content: center;  /* Center everything inside the header */
+    justify-content: space-between;
     padding: 10px 20px;
 }
 
-/* Centering logo */
-header .logo {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;  /* Allows logo to grow and center itself */
-}
-
-header .logo img {
-    width: 180px;   /* Increased size */
-    height: auto;
-}
-
-/* Navigation styling */
 header nav {
-    flex-grow: 1;  /* Balances with logo for centering */
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
     margin: 0;
     padding: 0;
 }
@@ -60,6 +50,45 @@ header nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
+}
+
+/* Centered Logo */
+header .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header .logo img {
+    width: 180px;  
+    height: auto;
+}
+
+/* Search bar styling */
+header .search form {
+    display: flex;
+    align-items: center;
+}
+
+header .search input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+header .search button {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+header .search button img {
+    width: 20px;
+    height: 20px;
 }
 
 
