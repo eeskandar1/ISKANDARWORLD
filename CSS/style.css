@@ -21,20 +21,33 @@ header {
     z-index: 1000;       
     background-color: #000000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;             /* Enables flexbox for alignment */
-    align-items: center;       /* Centers items vertically */
-    justify-content: space-between; /* Space between logo and navigation */
-    padding: 10px 20px;        /* Adds space inside the header */
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Center everything inside the header */
+    padding: 10px 20px;
+}
+
+/* Centering logo */
+header .logo {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;  /* Allows logo to grow and center itself */
 }
 
 header .logo img {
-    width: 150px;              /* Adjust as needed */
+    width: 180px;   /* Increased size */
     height: auto;
+}
+
+/* Navigation styling */
+header nav {
+    flex-grow: 1;  /* Balances with logo for centering */
 }
 
 header nav ul {
     list-style: none;
     display: flex;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
 }
@@ -48,6 +61,7 @@ header nav ul li a {
     text-decoration: none;
     font-size: 1.1rem;
 }
+
 
 
 /* Gallery Section */
