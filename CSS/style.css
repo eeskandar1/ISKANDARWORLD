@@ -17,23 +17,26 @@ body {
 /* Header styling */
 header {
     position: sticky;
-    top: 0;              /* Sticks the header to the top */
-    z-index: 1000;       /* Ensures the header stays above other elements */
-    background-color: #000000; /* Add a background color to avoid transparency */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for better visibility */
+    top: 0;              
+    z-index: 1000;       
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;             /* Enables flexbox for alignment */
+    align-items: center;       /* Centers items vertically */
+    justify-content: space-between; /* Space between logo and navigation */
+    padding: 10px 20px;        /* Adds space inside the header */
 }
 
 header .logo img {
-    width: 300px; /* Adjust size based on your image */
+    width: 150px;              /* Adjust as needed */
     height: auto;
 }
 
-/* Navigation styling */
 header nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 header nav ul li {
